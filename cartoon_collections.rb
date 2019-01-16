@@ -22,7 +22,7 @@ end
 def find_the_cheese(array)
   array.each do |x|
     if x.include?(cheese_types)
-      return TRUE
+      return x
     else
       return NIL
       
