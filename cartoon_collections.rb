@@ -15,9 +15,10 @@ def long_planeteer_calls(calls_long)
     if x.size > 4 
      return TRUE
     elsif calls_long.all? {|x| x < 4}
-      return FALSE
+      return TRUE
     end
   end
+  return FALSE
 end
 
 def find_the_cheese# code an argument here
