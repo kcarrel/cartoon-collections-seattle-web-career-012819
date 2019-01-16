@@ -14,8 +14,6 @@ def long_planeteer_calls(calls_long)
   calls_long.each do |x|
     if x.size > 4 
      return TRUE
-    elsif calls_long.all? {|x| x < 4}
-      return TRUE
     end
   end
   return FALSE
